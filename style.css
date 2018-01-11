@@ -1,0 +1,44 @@
+
+form {
+    position: relative;
+    margin: auto;
+    width: 500px;
+    height: 100px;
+    border: none;
+    padding: 30px;   
+    background-color: rgb(156, 153, 153);
+}
+
+#de, #para{
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    border: 1px solid rgb(83, 80, 80);
+    background-color: rgb(77, 74, 74);
+}
+
+#temperatura{
+    width: 50px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid rgb(83, 80, 80);
+    background-color: rgb(77, 74, 74);
+}
+
+button {
+    position: relative;
+    margin-left: 60px;
+    width: 140px;
+    height: 40px;
+    color: #000;
+    border-radius: 5px;
+    border: 3px solid rgb(100, 97, 97);
+    background-color: #fff;    
+}
+
+button:hover {
+    color: #fff;
+    border: 3px solid rgb(100, 97, 97);
+    background-color: rgb(100, 97, 97);   
+}
