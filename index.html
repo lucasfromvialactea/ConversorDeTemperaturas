@@ -1,13 +1,35 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Conversor de Temperaturas</title>
-  </head>
-  <body>
-    
-  </body>
-  <script>
-    alert("Olá! Está funcionando...");
-  </script>
-<html>
+<html lang="en">
+
+<head>
+    <title>Conversor de temperaturas</title>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <form>
+        <select id="de">
+            <option value="c">Celcius</option>
+            <option value="f">Fahremheit</option>
+            <option value="k">Kelvin</option>
+        </select> para
+
+        <select id="para">
+            <option value="c">Celcius</option>
+            <option value="f">Fahremheit</option>
+            <option value="k">Kelvin</option>
+        </select> <br><br>
+
+        Temperatura : 
+        <input type="number" id="temperatura" placeholder="?">
+
+        <button onclick="javascript:converter();"> Converter </button>
+    </form>
+
+</body>
+
+</html>
